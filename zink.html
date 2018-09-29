@@ -19,20 +19,14 @@
 </head>
 
 <body>
-    <!--<div class="container">
-        <div class="jumbotron">
-                <h1 class="display-4">Hello, world!</h1>
-                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-                <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
-              </div>
-    </div>-->
+    <!--MAIN CONTAINER FOR ALL THREE CARDS-->
     <div class="container">
         <div class="card-deck">
             <div class="row">
                 <div class="col-lg-4">
+                    <!--CARD ONE - TEAM SELECTOR-->
                     <div class="card">
+                        <!--IMAGE ON TOP OF CARD CARD ONE = TEAM LOGO-->
                         <img class="card-img-top" src="assets/images/backgrounds/team_images/eagles.jpg" alt="Card image cap">
                         <div class="card-body">
                             <div class="dropdown">
@@ -56,9 +50,41 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
+                    <!--CARD TWO - LAST GAME STATS-->
                     <div class="card">
+                        <!-- IMAGE ON TOP OF CARD THREE - MAYBE VENUE GIPHY-->
                         <img class="card-img-top" src="assets/images/backgrounds/team_images/eagles.jpg" alt="Card image cap">
                         <div class="card-body">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+
+                                        <td colspan="4">Most Recent Matchup (TEAM@TEAM)</td>
+                                        <!--<th scope="col">#</th>
+                                            <th scope="col">First</th>
+                                            <th scope="col">Last</th>
+                                            <th scope="col">Handle</th>-->
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">Date</th>
+                                        <td colspan="4">DATE GOES HERE</td>
+
+
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Away Score</th>
+                                        <td colspan="3">SCORE GOES HERE</td>
+
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">Home Score</th>
+                                        <td colspan="3">SCORE GOES HERE</td>
+
+                                    </tr>
+                                </tbody>
+                            </table>
 
                             <h5 class="card-title">TEAM STAT CARD</h5>
                             <div id="stats">
@@ -73,6 +99,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
+                    <!--CARD THREE - NEXT GAME TICKETS-->
                     <div class="card">
                         <img class="card-img-top" src="assets/images/backgrounds/team_images/eagles.jpg" alt="Card image cap">
                         <div class="card-body">
