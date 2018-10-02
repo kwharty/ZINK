@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Link to external CSS file-->
+    <link rel="stylesheet" href="./assets/style.css">
+    <!-- Latest compiled and minified CSS Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- Link to jQuery -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <!-- Link to external JavaScript file -->
+    <script src="./assets/zinkscript.js"></script>
+    <title>ZINK</title>
+</head>
+
+<body>
+    <!--<div class="container">
+        <div class="jumbotron">
+                <h1 class="display-4">Hello, world!</h1>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+              </div>
+    </div>-->
+    <div class="container">
+        <div class="card-deck">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/backgrounds/team_images/eagles.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                                    aria-expanded="false">
+                                    Select A Team
+                                </button>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                    <a class="dropdown-item" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </div>
+                            </div>
+                            <h5 class="card-title">TEAM SELECT CARD</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
+                                additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top image-center" src="assets/images/backgrounds/team_images/eagles.jpg" alt="Card image cap">
+                        <div class="card-body">
+
+                            <h5 class="card-title">TEAM STAT CARD</h5>
+                            <div id="stats">
+
+                            </div>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.
+                            </p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <img class="card-img-top" src="assets/images/backgrounds/team_images/eagles.jpg" alt="Card image cap">
+                        <div class="card-body">
+
+                            <h5 class="card-title">EVENT LISTING CARD</h5>
+                            <div id="nextEvent">
+
+                            </div>
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Next 3 Games</th>
+                                        <th scope="col">Tickets Starting At</th>
+                                        <th scope="col">Find Tickets Here</th>
+                                    </tr>
+                                </thead>
+                                <tbody id="event-table">
+
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
